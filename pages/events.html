@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT3020487 - IFSP Pirituba | Eventos</title>
+  <link href="../css/pages/events.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="../components/header.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <p-header></p-header>
+  <main class="container">
+    <section class="signup-form">
+      <h1 class="signup-form__title">
+        Faça seu cadastro
+      </h1>
+      <form class="signup-form__form">
+        <fieldset class="signup-form__fieldset">
+          <legend>Informações de acesso</legend>
+          <div class="input-block">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Informe seu nome de usuário " required />
+          </div>
+          <div class="input-block">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Crie uma senha " required />
+          </div>
+          <div class="input-block">
+            <label for="confirm-password">Confirmar senha</label>
+            <input type="password" id="confirm-password" placeholder="Confirme sua senha " required />
+          </div>
+        </fieldset>
+        <fieldset class="signup-form__fieldset">
+          <legend>Informações pessoais</legend>
+          <div class="input-block">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Informe seu nome completo" required />
+          </div>
+          <div class="input-block">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="seuemail@aluno.ifsp.edu.br" required />
+          </div>
+          <div class="input-block">
+            <label for="tel">Contato</label>
+            <input type="tel" id="tel" placeholder="(99) 99999-9999" required />
+          </div>
+          <div class="input-block">
+            <label for="s-masc">Masculino</label>
+            <input type="radio" id="s-masc" />
+            <label for="s-fem">Feminino</label>
+            <input type="radio" id="s-fem" />
+          </div>
+          <div class="input-block">
+            <input type="date" />
+          </div>
+        </fieldset>
+        <div class="button-group">
+          <button type="submit" class="button button--primary">Realizar cadastro</button>
+          <button type="reset" class="button button--secondary">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+:root {
+  --p-color-bg: #ffffff;
+
+  --p-color-bg-subdued: #f9faf5;
+  --p-color-bg-primary: #17882c;
+  --p-color-bg-primary-hover: #00420c;
+
+  --p-color-text: #1f2421;
+  --p-color-text-primary: #17882c;
+  --p-color-text-subdued: #616a75;
+  --p-color-text-inverse: #ffffff;
+
+  --p-color-border-primary: #17882c;
+  --p-color-border-input: #caced3;
+}
